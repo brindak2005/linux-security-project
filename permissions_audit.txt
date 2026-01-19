@@ -1,0 +1,26 @@
+File Audited: /etc/passwd
+
+Permissions:
+-rw-r--r--
+
+Owner: root
+Group: root
+
+Security Explanation:
+- File is readable by all users (required for system operation)
+- Only writable by root (prevents unauthorized user modification)
+- Misconfigured permissions could allow privilege escalation
+
+-----------------------------------------------------------------------------
+File Audited: README.txt
+
+Permissions: 
+-rw-------
+
+Owner: brinda
+
+Security Explanation:
+- File contains project documentation and should not be readable by other users
+- Only the owner has read and write permissions
+- Group and other access removed to prevent unauthorized access
+- Demonstrates least-privilege enforcement for user-owned files

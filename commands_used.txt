@@ -1,0 +1,6 @@
+pwd
+ls
+ls -l
+chmod 600 README.md
+stat README.md
+ls -l /etc/passwd
